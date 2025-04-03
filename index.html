@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./simple.css">
+    <link rel="stylesheet" href="./style.css">
+    <script src="./script.js" defer></script>
+    <title>Todo List</title>
+</head>
+
+<body>
+    <header>
+        <h1>My first Todo List</h1>
+    </header>
+    <main>
+        <div>
+            <form id="todos_add_form">
+                <label for="todo_name">Beschreibung Todo</label>
+                <input type="text" name="todo_name" id="todo_name">
+                <input type="submit" value="hinzufügen">
+            </form>
+        </div>
+        <div>
+            <h2>Offene Todos</h2>
+            <ul id="open_todos_list"></ul>
+        </div>
+        <div>
+            <h2>Abgeschlossene Todos</h2>
+            <ul id="closed_todos_list">
+            </ul>
+        </div>
+    </main>
+    <footer>
+        more Projects coming soon
+    </footer>
+</body>
+
+</html>

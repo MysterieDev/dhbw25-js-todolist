@@ -1,0 +1,4 @@
+- Todos hinzufügen können
+- Todos abhaken können
+- Todos wieder öffnen können
+- Todo anzeige korrekt zum Status des Todos rendern
