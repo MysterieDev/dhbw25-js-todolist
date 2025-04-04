@@ -9,3 +9,8 @@ li:hover{
 .todo-done{
  color: darkgrey;   
 }
+
+.todo-is-important{
+    font-weight: bold;
+    color: darkblue;
+}
